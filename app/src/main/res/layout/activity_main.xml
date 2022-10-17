@@ -10,14 +10,15 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView5"
-        android:layout_width="119dp"
+        android:id="@+id/login"
+        android:layout_width="110dp"
         android:layout_height="46dp"
-        android:layout_marginBottom="172dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="200dp"
         android:includeFontPadding="false"
+        android:lineSpacingExtra="0sp"
         android:paddingStart="10dp"
         android:paddingEnd="10dp"
-        android:password="false"
         android:text="Login"
         android:textColor="#FFEB3B"
         android:textSize="35sp"
@@ -45,7 +46,7 @@
         android:textColorHint="#A5A0A0"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+        app:layout_constraintTop_toBottomOf="@+id/login" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -89,10 +90,10 @@
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintHorizontal_bias="0.995"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.025" />
 
     <ImageButton
         android:id="@+id/imagebutton1"
@@ -102,7 +103,7 @@
         android:contentDescription="google"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.025"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button2"
         app:layout_constraintVertical_bias="0.0"
@@ -126,12 +127,10 @@
         android:id="@+id/imagebutton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="48dp"
         android:contentDescription="Linkedin"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/imagebutton2"
         app:layout_constraintTop_toBottomOf="@+id/button2"
         app:layout_constraintVertical_bias="0.0"
