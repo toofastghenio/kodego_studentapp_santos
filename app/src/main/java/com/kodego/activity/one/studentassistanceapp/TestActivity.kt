@@ -1,8 +1,8 @@
 package com.kodego.activity.one.studentassistanceapp
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import androidx.constraintlayout.widget.ConstraintLayout
 import com.kodego.activity.one.studentassistanceapp.databinding.ActivityTestBinding
 
 class TestActivity : AppCompatActivity() {
@@ -19,5 +19,9 @@ class TestActivity : AppCompatActivity() {
             var name : String = binding.etvName.text.toString()
             binding.txtName.text = name
         }
+    }
+
+    private fun setContentView(root: ConstraintLayout) {
+
     }
 }
